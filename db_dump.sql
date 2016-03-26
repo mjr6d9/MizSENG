@@ -53,7 +53,6 @@ CREATE TABLE `Businesses` (
   `Bus_Name` varchar(15) NOT NULL,
   `Bus_Id` varchar(10) NOT NULL,
   `Bus_Email` varchar(40) NOT NULL,
-  `Bus_Password` varchar(15) NOT NULL,
   KEY `Bus_Id` (`Bus_Id`),
   CONSTRAINT `Businesses_ibfk_1` FOREIGN KEY (`Bus_Id`) REFERENCES `BusinessCredentials` (`BusinessCredential_Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -65,7 +64,7 @@ CREATE TABLE `Businesses` (
 
 LOCK TABLES `Businesses` WRITE;
 /*!40000 ALTER TABLE `Businesses` DISABLE KEYS */;
-INSERT INTO `Businesses` VALUES ('LA','IT&Tech','Facebook','Justinface','Justin@facebook.org','123'),('LA','Searching','Google','Dannygo','Danny@google.org','123456');
+INSERT INTO `Businesses` VALUES ('LA','IT&Tech','Facebook','Justinface','Justin@facebook.org'),('LA','Searching','Google','Dannygo','Danny@google.org');
 /*!40000 ALTER TABLE `Businesses` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -160,7 +159,6 @@ CREATE TABLE `User` (
   `Location` varchar(40) NOT NULL,
   `Employment_History` varchar(40) NOT NULL,
   `Gender` varchar(6) NOT NULL,
-  `User_Password` varchar(15) NOT NULL,
   `Education` varchar(10) NOT NULL,
   `Connections` varchar(2) NOT NULL,
   `Skills` varchar(30) NOT NULL,
@@ -178,7 +176,7 @@ CREATE TABLE `User` (
 
 LOCK TABLES `User` WRITE;
 /*!40000 ALTER TABLE `User` DISABLE KEYS */;
-INSERT INTO `User` VALUES ('Wang','Weihan','Vichanm',21,'Columbia MO','Baidu','male','1234567','Undergrade','Y','C/C++/Java','intership in google','Mizzou','Vichanm'),('Regan','Matt','awesomemat',21,'Columbia MO','Google','male','matt123','Undergrade','Y','C++/JAVA/PHP/Swift','internship in facebook','Mizzou','awesomemat');
+INSERT INTO `User` VALUES ('Wang','Weihan','Vichanm',21,'Columbia MO','Baidu','male','Undergrade','Y','C/C++/Java','intership in google','Mizzou','Vichanm'),('Regan','Matt','awesomemat',21,'Columbia MO','Google','male','Undergrade','Y','C++/JAVA/PHP/Swift','internship in facebook','Mizzou','awesomemat');
 /*!40000 ALTER TABLE `User` ENABLE KEYS */;
 UNLOCK TABLES;
 
