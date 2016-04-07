@@ -1,0 +1,10 @@
+# Login MySQL statements for credential authentication page
+SELECT User_ID, Email, Password FROM UserCredentials WHERE Email = ?
+SELECT Bus_ID, Email, Password FROM BusinessCredentials WHERE Email = ?
+
+# Registration statements for profile creation pages
+INSERT INTO User(User_ID, Fname, Lname, Age, Location, Employment_History, Gender, Email, Education, 
+  Connections, Skills, Volunteer_Work, User_PostId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+INSERT INTO UserCredentials(User_ID, Email, Password) VALUES (?, ?, ?)
+INSERT INTO Businesses(Bus_ID, Location, Industry, Name, Email) VALUES (?, ?, ?, ?, ?)
+INSERT INTO BusinessCredentials(Bus_ID, Email, Password) VALUES (?, ?, ?)
