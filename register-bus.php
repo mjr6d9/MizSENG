@@ -83,11 +83,11 @@
 					<tr>
 						<td class="table-label" width="8%">Business Name:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "bname" placeholder = "Business Name"> 
+							<input class="form-control text-input" type="text" name = "bname" placeholder = "Business Name" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">Field/Industry:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="text" name = "field/industry" placeholder = "Field/Industry">
+							<input class="form-control text-input" type="text" name = "field/industry" placeholder = "Field/Industry" required="yes">
 						</td>
 					</tr>
 					<tr>
@@ -95,13 +95,13 @@
 							User ID:
 						</td>
 						<td width="30%" class="field">
-							<input class="form-control text-input" type="text" id="userid" name="userid" placeholder="Enter desired User ID">
+							<input class="form-control text-input" type="text" id="userid" name="userid" placeholder="Enter desired User ID" required="yes">
 						</td>
 						<td width="8%" class="table-label">
 							Confirm:
 						</td>
 						<td width="30%" class="field">
-							<input class="form-control text-input" type="text" id="userid-confirm" name="userid-confirm" placeholder="Confirm your User ID">
+							<input class="form-control text-input" type="text" id="userid-confirm" name="userid-confirm" placeholder="Confirm your User ID" required="yes">
 						</td>
 					</tr>
 					<tr>
@@ -111,48 +111,48 @@
 						</td>
 						<td class="table-label"width="8%">Confirm:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="email" name = "email-confirm" placeholder = "E-mail">
+							<input class="form-control text-input" type="email" name = "email-confirm" placeholder = "E-mail" required="yes">
 						</td>
 					</tr>
 					<tr>
 						<td class="table-label" width="8%">Password:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="password" name = "password" placeholder = "Password"> 
+							<input class="form-control text-input" type="password" name = "password" placeholder = "Password" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">Confirm:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="password" name = "password-confirm" placeholder = "Password">
+							<input class="form-control text-input" type="password" name = "password-confirm" placeholder = "Password" required="yes">
 						</td>
 					</tr>
 					<tr>
 						<td class="table-label" width="8%">Phone:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="number" name = "phone" placeholder = "Phone"> 
+							<input class="form-control text-input" type="number" name = "phone" placeholder = "Phone" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">Website:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="text" name = "website" placeholder = "Website">
+							<input class="form-control text-input" type="text" name = "website" placeholder = "Website" required="yes">
 						</td>
 					</tr>
 
 					<tr>
 						<td class="table-label" width="8%">Country:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "country" placeholder = "Country"> 
+							<input class="form-control text-input" type="text" name = "country" placeholder = "Country" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">State/Prov:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="text" name = "state/prov" placeholder = "State/Providence">
+							<input class="form-control text-input" type="text" name = "state/prov" placeholder = "State/Providence" required="yes">
 						</td>
 					</tr>
 					<tr>
 						<td class="table-label" width="8%">City:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "city" placeholder = "City"> 
+							<input class="form-control text-input" type="text" name = "city" placeholder = "City" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">Zip-Code:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="number" name = "zip-code" placeholder = "Zip-Code">
+							<input class="form-control text-input" type="number" name = "zip-code" placeholder = "Zip-Code" required="yes">
 						</td>
 					</tr>
 					<tr>
@@ -160,7 +160,7 @@
 							Description:
 						</td>
 						<td class="field" colspan="3">
-							<textarea id = "description" class="form-control text-input" rows="5" name = 'description'>
+							<textarea id = "description" class="form-control text-input" rows="5" name = 'description' required="yes">
 
 							</textarea>
 						</td>
