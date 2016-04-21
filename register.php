@@ -83,11 +83,11 @@
 					<tr>
 						<td class="table-label" width="8%">First Name:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "fname" placeholder = "First Name"> 
+							<input class="form-control text-input" type="text" name = "fname" placeholder = "First Name" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">Last Name:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="text" name = "lname" placeholder = "Last Name">
+							<input class="form-control text-input" type="text" name = "lname" placeholder = "Last Name" required="yes">
 						</td>
 					</tr>
 					<tr>
@@ -137,31 +137,31 @@
 					<tr>
 						<td class="table-label" width="8%">Country:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "country" placeholder = "Country"> 
+							<input class="form-control text-input" type="text" name = "country" placeholder = "Country" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">State/Providence:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="text" name = "state/providence" placeholder = "State/Providence">
+							<input class="form-control text-input" type="text" name = "state/providence" placeholder = "State/Providence" required="yes">
 						</td>
 					</tr>
 					<tr>
 						<td class="table-label" width="8%">City:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "city" placeholder = "City"> 
+							<input class="form-control text-input" type="text" name = "city" placeholder = "City" required="yes"> 
 						</td>
 						<td class="table-label"width="8%">Zip Code:</td>
 						<td width="30%" class="field" > 
-							<input class="form-control text-input" type="number" name = "zipcode" placeholder = "Zip-Code">
+							<input class="form-control text-input" type="number" name = "zipcode" placeholder = "Zip-Code" required="yes">
 						</td>
 					</tr>
 					<tr>
 						<td class="table-label" width="8%">Age:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="number" name = "age" placeholder="Enter Age" min="18">
+							<input class="form-control text-input" type="number" name = "age" placeholder="Enter Age" min="18" required="yes">
 						</td>
 						<td class="table-label" width="8%">Gender:</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "gender" placeholder="Gender"> 
+							<input class="form-control text-input" type="text" name = "gender" placeholder="Gender" required="yes"> 
 						</td>
 					</tr>
 					<tr>
@@ -169,13 +169,13 @@
 							User ID:
 						</td>
 						<td width="30%" class="field">
-							<input class="form-control text-input" type="text" id="userid" name="userid" placeholder="Enter desired User ID">
+							<input class="form-control text-input" type="text" id="userid" name="userid" placeholder="Enter desired User ID" required="yes">
 						</td>
 						<td width="8%" class="table-label">
 							Confirm:
 						</td>
 						<td width="30%" class="field">
-							<input class="form-control text-input" type="text" id="userid-confirm" name="userid-confirm" placeholder="Confirm your User ID">
+							<input class="form-control text-input" type="text" id="userid-confirm" name="userid-confirm" placeholder="Confirm your User ID" required="yes">
 						</td>
 					</tr>
 					<tr>
@@ -201,13 +201,13 @@
 					<tr>
 						<td class="table-label"width="8%">School:</td>
 						<td>
-							<input class="form-control text-input" type="text" name="highschool" placeholder="School Name">
+							<input class="form-control text-input" type="text" name="highschool" placeholder="School Name" required="yes">
 						</td>
 						<td class="table-label">
 							Degree(s):
 						</td>
 						<td class="special-field">
-							<input class="form-control text-input" type="text" name="degrees" placeholder="Degree(s)">
+							<input class="form-control text-input" type="text" name="degrees" placeholder="Degree(s)" required="yes">
 						</td>
 					</tr>
 					<tr>
@@ -229,13 +229,13 @@
 							Company:
 						</td>
 						<td class="special-field">
-							<input class="form-control text-input" type="text" name="company" placeholder="Company Name">
+							<input class="form-control text-input" type="text" name="company" placeholder="Company Name" required="yes">
 						</td>
 						<td class="table-label" width="8%">
 							Field/Industry:
 						</td>
 						<td width="30%"class="field"> 
-							<input class="form-control text-input" type="text" name = "field/industry" placeholder = "Field/Industry of Work"> 
+							<input class="form-control text-input" type="text" name = "field/industry" placeholder = "Field/Industry of Work" required="yes"> 
 						</td>
 					</tr>
 					<tr>
@@ -243,7 +243,7 @@
 							Job Title:
 						</td>
 						<td width="30%" class="special-field" > 
-							<input class="form-control text-input" type="text" name = "job-title" placeholder = "Job Title">
+							<input class="form-control text-input" type="text" name = "job-title" placeholder = "Job Title" required="yes">
 						</td>
 						<td class="table-label" width="8%">
 							Start-Date:
